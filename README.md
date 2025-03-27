@@ -4,4 +4,15 @@
 
 1. Create Folders
 
-```sudo mkdir -p documentation
+```sudo mkdir -p documentation```
+
+```sudo mkdir -p scripts```
+
+```sudo mkdir -p monitoring```
+
+```sudo -p config```
+
+
+
+
+## Part 2: Linux Administration 
