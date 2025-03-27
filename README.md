@@ -53,7 +53,56 @@ Created a user `NodeOps` in `admin` server. Created a group `DevOps`. Added the 
 ![image](https://github.com/user-attachments/assets/54c23c0d-73c3-42d5-8f50-b664f09a0383)
 
 
+3. Installation of Packages
 
+   ```sudo yum install nginx``` on bothe `NodeOps` user and 'kunle` user
+
+   ![image](https://github.com/user-attachments/assets/7935f6a1-22f1-4d62-92cc-edc647102eda)
+
+   ![image](https://github.com/user-attachments/assets/7faca0a0-c1d2-408b-91cf-4c8ebab8adc1)
+
+System configuration
+
+![image](https://github.com/user-attachments/assets/3d6f1e7e-7c96-4f68-956d-a0f63b36851b)
+
+![image](https://github.com/user-attachments/assets/36ab2fdd-b824-4520-bda9-37d35b510932)
+
+Find the `cpu` usage of the system
+
+`lscpu`
+
+![image](https://github.com/user-attachments/assets/2970c73b-0c6f-425d-b4d5-609426733333)
+
+
+`lsblk`
+
+![image](https://github.com/user-attachments/assets/47c7cc60-42eb-46ed-a084-3b72bea9a6af)
+
+Created a volume and attached it to `admin` and `target` servers
+
+![image](https://github.com/user-attachments/assets/1bd43765-2d38-4fdc-ac78-ec7b0fc169a7)
+
+
+![image](https://github.com/user-attachments/assets/b53958c1-cee0-4ddf-a294-e9815f6eeb84)
+
+Monitoring of System
+
+```sudo ps aux```
+
+![image](https://github.com/user-attachments/assets/aa449e8c-bd45-4839-8808-8b596f9a3875)
+
+```sudo htop```
+
+![image](https://github.com/user-attachments/assets/2e107b37-ae8f-4844-9e66-8ad51be2435c)
+
+
+
+
+
+
+
+
+   
 
 
 
