@@ -10,7 +10,15 @@
 
 ```sudo mkdir -p monitoring```
 
-```sudo -p config```
+```sudo mkdir -p config```
+
+```sudo mkdir -p linux-admin-automation-project/{scripts,monitoring,monitoring,documentation}
+
+2. Create Pre-Commit Hook
+
+```sudo touch .git/hook.pre-commit```
+
+```sh
 
 
 
