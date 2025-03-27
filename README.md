@@ -12,7 +12,7 @@
 
 ```sudo mkdir -p config```
 
-```sudo mkdir -p linux-admin-automation-project/{scripts,monitoring,monitoring,documentation}
+```sudo mkdir -p linux-admin-automation-project/{scripts,monitoring,monitoring,documentation}```
 
 2. Create Pre-Commit Hook
 
