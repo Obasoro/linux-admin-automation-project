@@ -116,6 +116,42 @@ Click "Allocate"
 
 ![image](https://github.com/user-attachments/assets/0c875819-132e-4298-8d7f-ceffefd819b9)
 
+### Setting up the firewall
+
+Using Amazon-linux, UFW does not hve a package, this may be due to security group by AWS
+
+IPtable were used 
+
+# Install iptables
+```sudo yum install iptables -y```
+
+# Install iptables-services for persistent rules
+
+```sudo yum install iptables-services -y```
+
+running this `sudo iptables -P INPUT DROP`
+
+I lost connection. `iptables -P INPUT DROP` means that any incoming network packet not explicitly allowed by a previous rule will be dropped. This includes new connection attempts, such as SSH connection.
+
+Setting up private connection between server
+
+### Steps
+ 1. Created a VPC mini-project
+
+![image](https://github.com/user-attachments/assets/c7f1954d-14c4-41b1-8175-62543974b978)
+
+You can enable public assignment of IP to the servers if you wish too, but for this task,
+
+we ping the bot server
+
+```ping 10.0.29.241```
+``--- 10.0.29.241 ping statistics ---
+8 packets transmitted, 0 received, 100% packet loss, time 7303ms```
+
+
+
+
+
 
 
 
