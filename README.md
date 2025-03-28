@@ -95,6 +95,28 @@ Monitoring of System
 
 ![image](https://github.com/user-attachments/assets/2e107b37-ae8f-4844-9e66-8ad51be2435c)
 
+******************
+
+## Task 3
+
+****************
+
+For the `users` created on `AWS`
+
+![image](https://github.com/user-attachments/assets/f9d158b0-950a-4a34-be16-95c56af4ba41)
+
+```sh
+Open the Amazon EC2 Console
+Navigate to "Network & Security" > "Elastic IPs"
+Click "Allocate Elastic IP address"
+Select "Amazon's pool of IPv4 addresses"
+Click "Allocate"
+
+```
+
+![image](https://github.com/user-attachments/assets/0c875819-132e-4298-8d7f-ceffefd819b9)
+
+
 
 
 
